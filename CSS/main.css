@@ -17,8 +17,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
-  margin-bottom: 60px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
   #slide-page-number #previous, #slide-page-number #next {
     text-decoration: none;
     display: inline-block;
@@ -36,6 +36,7 @@ header {
     border-radius: 50%; }
 
 main {
-  width: 70%; }
+  background-image: url(https://coolwallpapers.me/picsup/5851883-rick-and-morty-season-4-rick-and-morty-tv-shows-hd-4k.jpg);
+  background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */

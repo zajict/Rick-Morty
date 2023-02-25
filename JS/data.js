@@ -11,3 +11,12 @@ class Character {
         this.species = species;
     };
 };
+export const getCharacters = () => {
+    return fetch("https:rickandmortyapi.com/api/character")
+    .then(response => {return response.json()})
+    .then(characters => {return characters.result.map(({name, image, id}) => new Character(name, image, id))})
+};
+
+export const getcharChard = (id) => {
+
+}
