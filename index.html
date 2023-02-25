@@ -5,12 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rick and Morty</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjBCzgTDF9LDRqVKp_a-w_TDGjXbaZepLnj7mobxTiHVhJcUxuhOmSa4Ikylxeek-_Ns4&usqp=CAU" type="image/x-icon">
     <link rel="stylesheet" href="./CSS/main.css">
 </head>
 <body>
-    
-
-
+    <div class="container-fluid">
+        <header class="header d-flex justify-content-center row">
+            <div class="col-md-auto">
+                <h3 id="header-title">Rick & Morty Wiki</h3>
+            </div>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div id="slide-page-number">
+                    <a href="#" class="previous round" id="previous">&#8249;</a>
+                    <button onclick="one()">1</button>
+                    <button onclick="two()">2</button>
+                    <button onclick="four()">3</button>
+                    <button onclick="two()">4</button>
+                    <button onclick="four()">5</button>
+                    <a href="#" class="next round" id="next">&#8250;</a>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
 
 
     <script type="module" src="./JS/app.js"></script>
